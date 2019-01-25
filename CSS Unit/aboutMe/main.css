@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+div {
+    padding: 2%;
+    background-color: #1DA1F2;
+}
+
+h1 {
+    color: #1DA1F2;
+    background-color: white;
+    border: #126596 solid 3px;
+    text-align: center;
+}
+
+h4 {
+    color: #126596;
+}
+
+li {
+    color: linen;
+}
+
+p {
+    color: linen;
+}
+
+strong {
+    color: orange;
+}

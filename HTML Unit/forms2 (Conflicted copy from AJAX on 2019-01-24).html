@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forms and Inputs Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Forms and Inputs Demo</h1>
+    <h2>Do you prefer cats or dogs?</h2>
+    <form>
+        <label for="cats">Cats: </label>    
+        <input name="petChoice" id="cats" type="radio" value="cats">
+        <label for="dogs">Dogs: </label>
+        <input name="petChoice" id="dogs" type="radio" value="dogs">
+    <h2>Pick your favorite color!</h2>
+        <select name="color">
+            <option value="black">Black</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="white">White</option>
+        </select>
+    <h2>Share your comments!</h2>
+        <textarea name="comment" cols="50" rows="20"></textarea>
+        <div><button type="submit">Submit!</button></div>
+    </form>
+</body>
+</html>

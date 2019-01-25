@@ -1,0 +1,28 @@
+#logo {
+    width: 30%;
+    margin-left: 1.66%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #F1F1F1;
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #3f3f3f;
+    transition: color 400ms;
+}
+
+#logo:hover {
+    color: #202020;
+}
+
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    opacity: 0.7;
+    transition: opacity 400ms;
+}
+
+img:hover {
+    opacity: 1;
+}

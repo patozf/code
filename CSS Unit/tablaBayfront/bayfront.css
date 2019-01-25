@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    background-image: url(http://paperlief.com/images/blue-gradient-background-wallpaper-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: gold;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 500px;
+    border: 1px solid;
+    border-collapse: collapse; 
+    Vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.subheader {
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.sums {
+    text-align: center;
+    background-color: dodgerblue;
+    border: 0px;
+    color: white;
+}
+
+.date {
+    background-color: gold;
+    color: black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}

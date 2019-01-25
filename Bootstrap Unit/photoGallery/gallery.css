@@ -1,0 +1,23 @@
+body {
+    padding-top: 70px;
+}
+
+.jumbotron {
+    background-color: lightgray;
+}
+
+.fa-gripfire {
+    color: orange;
+}
+
+.navbar-inverse {
+    background-color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}

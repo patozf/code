@@ -1,0 +1,45 @@
+/* Disable scrollbar for style */
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+    background: white;
+}
+
+.title {
+    width: 100%;
+    color: gray;
+    margin: 20px 1%;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.subtitle {
+    width: 98%;
+    color: gray;
+    margin-left: 1%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+    text-align: justify;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+img {
+    width: 18%;
+    float: left;
+    margin: 1%;
+    -webkit-filter: opacity(50%);
+    -moz-filter: opacity(50%);
+    filter: opacity(50%);
+    transition: all 0.5s ease;
+}
+
+img:hover {
+    filter: opacity(100%);
+}
